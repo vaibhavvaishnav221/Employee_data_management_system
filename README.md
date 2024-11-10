@@ -4,11 +4,15 @@ This is a employee data management system where we will create a database named 
 ## Setup
 First of all delete the existing database in your system if it is named warehouse by using the query:
 
-```"DROP DATABASE IF EXISTS warehouse;```
+```
+"DROP DATABASE IF EXISTS warehouse;
+```
 
 Write the code in your MySQL Workbench which will create a database named warehouse that we will be using in this project:
 
-```CREATE DATABASE warehouse;```
+```
+CREATE DATABASE warehouse;
+```
 
 Now in order to use the current database named warehouse write the code "USE warehouse;". This will query will make sure that you are doing the work inside the database named warehouse.
 
@@ -30,7 +34,9 @@ Here, in this table there are 3 columns named id that has datatype integer, name
 
 Now after creating the table you may also wanna see how many tables do you have in your database, you can see them by writing this query:
 
-```SHOW TABLES;```
+```
+SHOW TABLES;
+```
 
 Running this query will give you the following results:
 
@@ -40,7 +46,9 @@ Running this query will give you the following results:
 
 Now, if you want to check the structure of your table named employees, you write the following query:
 
-```DESC employees;```
+```
+DESC employees;
+```
 
 This will give you the schema of your table that includes the name of all your columns and their datatypes and as well as their constraints which will look like this:
 
@@ -170,7 +178,9 @@ This will insert all the data we got from our operations in warehouse into emplo
 
 In order to see the entire data in the employees table, we write the following query:
 
-```SELECT * FROM employees;```
+```
+SELECT * FROM employees;
+```
 
 The result you will get after writing this query will look like this:
 
@@ -280,11 +290,15 @@ The result you will get after writing this query will look like this:
 ### 4. Fetching specific columns from employees table
 You can fetch specififc column from employees table by writing the following query:
 
-```SELECT COLUMN_1, COLUMN_2, COLUMN_3 FROM employees;```
+```
+SELECT COLUMN_1, COLUMN_2, COLUMN_3 FROM employees;
+```
 
 Like imagine you only want to fetch the name and salary from the employees table, for that you write the following query:
 
-```SELECT name, salary FROM employees;```
+```
+SELECT name, salary FROM employees;
+```
 
 This will give you the following result
 
@@ -401,7 +415,9 @@ Let's take a look at an example:
 
 Write the query:
 
-```SELECT * FROM employees WHERE salary > 60000;```
+```
+SELECT * FROM employees WHERE salary > 60000;
+```
 
 This will select all the rows where salary is greater than 60000.
 
