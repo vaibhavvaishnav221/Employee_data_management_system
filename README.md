@@ -497,8 +497,6 @@ The result will be following:
 
 That's emough for today, we will learn more in some other project.
 
-Vaibhav Vaishnav
-<br>
-vaibhavvaishnav221@gmail.com
-<br>
+Vaibhav Vaishnav  
+vaibhavvaishnav221@gmail.com  
 +91 6367340050
