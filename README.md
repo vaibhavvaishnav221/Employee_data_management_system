@@ -495,7 +495,7 @@ The result will be following:
 |  99 | Ryan Sullivan      |  78000 |
 | 100 | Willow Murphy      |  81000 |
 
-That's emough for today, we will learn more in some other project.
+That's enough for today, we will learn more in some other project.
 
 Vaibhav Vaishnav  
 vaibhavvaishnav221@gmail.com  
