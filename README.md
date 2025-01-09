@@ -1,7 +1,7 @@
 # Employee Data Management System 🧑‍🔧
 This is an employee data management system where we will create a database named "warehouse" which will show the information of all the employees that are working in our warehouse and in that database, we wil create a table named employees where the data will be stored in structured and tabular format and the table will have 3 columns named id, name and salary.
 
-## Setup
+## Setup ⚙️🛠️📦
 First of all delete the existing database in your system if it is named warehouse by using the query:
 
 ```
