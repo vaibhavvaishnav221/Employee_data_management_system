@@ -1,18 +1,18 @@
-SHOW DATABASES;        // This query is used to fetch all the databases in your MySQL Workbench.
+SHOW DATABASES;                                                                // This query is used to fetch all the databases in your MySQL Workbench.
 
-CREATE DATABASE warehouse;        // Used to create databases.
+CREATE DATABASE warehouse;                                                     // Used to create databases.
 
-USE warehouse;            // Used to switch between databases.
+USE warehouse;                                                                 // Used to switch between databases.
     
-SHOW TABLES;            // It is used to see all the tables available in your current database.
+SHOW TABLES;                                                                   // It is used to see all the tables available in your current database.
 
-CREATE TABLE employees(
+CREATE TABLE employees(                                                        // This query is used to Create the table and its schema.
     id INT PRIMARY KEY,
-    name VARCHAR(50),
+    name VARCHAR(50),                                                          
     salary INT
-);
+);                                                                             
 
-DESC employees;
+DESC employees;                                                                // Used to see the schema of the table like name of the table, name of the columns and also the data types of the columns.
 
 INSERT INTO employees (id, name, salary) VALUES
 (1, 'Liam Smith', 55000),
