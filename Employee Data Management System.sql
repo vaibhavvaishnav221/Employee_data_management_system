@@ -1,7 +1,6 @@
 SHOW DATABASES;        // This query is used to fetch all the databases in your MySQL Workbench.
 
-
-CREATE DATABASE warehouse;
+CREATE DATABASE warehouse;        // Used to create databases.
 
 USE warehouse;
 
