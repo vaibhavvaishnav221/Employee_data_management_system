@@ -2,9 +2,9 @@ SHOW DATABASES;        // This query is used to fetch all the databases in your 
 
 CREATE DATABASE warehouse;        // Used to create databases.
 
-USE warehouse;
-
-SHOW TABLES;
+USE warehouse;            // Used to switch between databases.
+    
+SHOW TABLES;            // It is used to see all the tables available in your current database.
 
 CREATE TABLE employees(
     id INT PRIMARY KEY,
