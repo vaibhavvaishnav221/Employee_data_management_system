@@ -6,8 +6,7 @@ USE warehouse;
 
 SHOW TABLES;
 
-CREATE TABLE employees
-(
+CREATE TABLE employees(
     id INT PRIMARY KEY,
     name VARCHAR(50),
     salary INT
