@@ -1,4 +1,4 @@
-# Employee Data Management System 🧑‍🔧
+# [Employee Data Management System](https://github.com/vaibhavvaishnav221/Employee_data_management_system/blob/main/Employee%20Data%20Management%20System.sql "Employee Data Management System") 🧑‍🔧
 This is an employee data management system where we will create a database named "warehouse" which will show the information of all the employees that are working in our warehouse and in that database, we wil create a table named employees where the data will be stored in structured and tabular format and the table will have 3 columns named id, name and salary.
 
 ## Setup ⚙️🛠️📦
