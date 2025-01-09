@@ -16,7 +16,7 @@ CREATE DATABASE warehouse;
 
 Now in order to use the current database named warehouse write the code "USE warehouse;". This will query will make sure that you are doing the work inside the database named warehouse.
 
-### Working with database
+### Working with database 🛢️
 Now when you have selected the database you want to work with that is in our case database named "warehouse", we will start creating the table named employees.
 
 ### 1. Create a table named employees
